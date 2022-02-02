@@ -1,0 +1,125 @@
+#form {
+  position: absolute;
+  left: 700px;
+  bottom: 100px;
+  top: 50px;
+}
+
+.home {
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  bottom: 8px;
+  margin-top: 15px;
+  margin-left: 18px;
+  color: white;
+}
+.home:hover {
+  color: #d9d9d9;
+}
+.back {
+  background-color: #192a2a;
+  margin-left: -20px;
+  margin-right: -12px;
+}
+.where {
+  height: 150px;
+  position: absolute;
+  top: 250px;
+  left: 130px;
+}
+.girl {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.submit-btn {
+  background-color: #d9d9d9;
+}
+
+.signup-form {
+  height: 500px;
+  width: 600px;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.Signup-head {
+  padding: 8px;
+  border-radius: 5px;
+}
+.signup-content .radio {
+  margin: 10px 10px;
+}
+.signup-content2 .input {
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+.signup-content2 .tarikh {
+  margin: 10px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+.signup-content2 .person {
+  padding: 10px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+.signup-content2 .travel {
+  margin: 20px 20px;
+}
+.signup-content2 .travel2 {
+  padding: 5px;
+}
+.signup-content2 .submit-btn {
+  border: none;
+  outline: none;
+  width: 200px;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+body {
+  background-color: #dde0e8;
+}
+/* BUTTON */
+.btn {
+  background: #0c0e0f;
+  background-image: -webkit-linear-gradient(top, #0c0e0f, #171d21);
+  background-image: -moz-linear-gradient(top, #0c0e0f, #171d21);
+  background-image: -ms-linear-gradient(top, #0c0e0f, #171d21);
+  background-image: -o-linear-gradient(top, #0c0e0f, #171d21);
+  background-image: linear-gradient(to bottom, #0c0e0f, #171d21);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #192a3a;
+  background-image: -webkit-linear-gradient(top, #192a3a, #192a3a);
+  background-image: -moz-linear-gradient(top, #192a3a, #192a3a);
+  background-image: -ms-linear-gradient(top, #192a3a, #192a3a);
+  background-image: -o-linear-gradient(top, #192a3a, #192a3a);
+  background-image: linear-gradient(to bottom, #192a3a, #192a3a);
+  text-decoration: none;
+  color: #ffffff;
+}
+.booking-page {
+  position: relative;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
